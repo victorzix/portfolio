@@ -1,11 +1,11 @@
-import IntroPage from './components/IntroPage';
-import { ThemeProvider } from './contexts/ThemeContext';
+import AnimatedRoutes from './components/AnimatedRoutes';
+import { BrowserRouter as Router } from 'react-router-dom';
 
 function App() {
 	return (
-		<ThemeProvider>
-			<IntroPage />
-		</ThemeProvider>
+		<Router>
+			<AnimatedRoutes />
+		</Router>
 	);
 }
 

@@ -1,3 +1,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body, html {
+  overflow: hidden;
+}
+
+@font-face {
+  font-family: "Inter-bold";
+  src: url("./fonts/Inter/Inter-ExtraBold.ttf") format("truetype");
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Monda-bold";
+  src: url("./fonts/Monda/Monda-Bold.ttf") format("truetype");
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Monda-regular";
+  src: url("./fonts/Monda/Monda-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-display: swap;
+}
