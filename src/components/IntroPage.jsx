@@ -37,7 +37,7 @@ export default function IntroPage() {
 				<p>Bem vindo(a) ao meu mundo</p>
 			</div>
 
-			<Link to="/about" className="w-full justify-center flex">
+			<Link to="/sobre" className="w-full justify-center flex">
 			<HiArrowLongDown className='smallPhone:max-md:flex md:hidden absolute bottom-2 text-3xl '/>
 				<button
 					className={`smallPhone:max-md:hidden md:flex w-1/3 md:w-2/4 ${newTheme.button} xl:h-20 lg:h-16 md:h-14 rounded-full font-inter

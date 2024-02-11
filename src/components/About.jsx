@@ -34,7 +34,7 @@ function About() {
 						na criação de sistemas e Backend.
 					</p>
 					<p>
-						Espero que sua estadia em meu portifólio lhe gere uma boa
+						Espero que sua estadia em meu portfólio lhe gere uma boa
 						experiência e, quem sabe, até mesmo trabalhemos juntos não é mesmo?
 					</p>
 					<p>Bom, até daqui a pouco!</p>
@@ -43,7 +43,7 @@ function About() {
 				<Link to='/'>
 					<HiArrowLongLeft className="smallPhone:max-md:flex md:hidden absolute bottom-6 left-6 text-3xl " />
 				</Link>
-				<Link to='/skills'>
+				<Link to='/habilidades'>
 					<HiArrowLongRight className="smallPhone:max-md:flex md:hidden absolute bottom-6 right-6 text-3xl " />
 				</Link>
 			</div>

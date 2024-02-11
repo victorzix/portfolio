@@ -11,11 +11,14 @@ function Project({ name, language, deploy, repository, description, techs }) {
 	return (
 		<div className="font-monda flex flex-col xl:gap-3.5 md:gap-3 smallPhone:gap-1 md:w-full">
 			<div className="flex smallPhone:text-start items-center text-center lg:gap-2 md:gap-1 smallPhone:gap-2">
+
+      <div className="flex items-center text-center h-auto justify-center">
 				<h2 className="font-bold xl:text-4xl md:text-3xl smallPhone:text-2xl">{name} -</h2>
-        <h3 className="xl:text-4xl md:text-3xl">{language}</h3>
+        <div className=" md:text-2xl xl:text-5xl m-0 p-0 flex smallPhone:text-2xl">{language}</div>
+      </div>
 
         <div className={`xl:ml-3 flex flex-col items-start xl:text-sm md:text-xs smallPhone:text-xs ${newTheme.link}`}>
-          {deploy ? <Link target="blank" to={`https://${deploy}.victoraphael.com.br`}>Deploy</Link> : <p className={`${newTheme.text}`}>O deploy ainda não foi feito</p>}
+          {deploy ? <Link target="blank" to={`https://${deploy}.victoraphael.com.br`}>Deploy</Link> : <></>}
           <Link target="blank" to={`https://github.com/victorzix/${repository}`}>Repositório</Link>
         </div>
 			</div>

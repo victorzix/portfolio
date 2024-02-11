@@ -7,6 +7,7 @@ import Projects from './Projects';
 import setTheme from '../SetTheme';
 import { useContext } from 'react';
 import { ThemeContext } from '../contexts/ThemeContext';
+import Contacts from './Contacts';
 
 function AnimatedRoutes() {
 	const location = useLocation();
@@ -18,9 +19,10 @@ function AnimatedRoutes() {
 			<AnimatePresence>
 				<Routes location={location} key={location.pathname}>
 					<Route path="/" element={<IntroPage />} />
-					<Route path="/about" element={<About />} />
-					<Route path="/skills" element={<Skills />} />
-					<Route path="/projects" element={<Projects />} />
+					<Route path="/sobre" element={<About />} />
+					<Route path="/habilidades" element={<Skills />} />
+					<Route path="/projetos" element={<Projects />} />
+					<Route path="/contatos" element={<Contacts />} />
 				</Routes>
 			</AnimatePresence>
 		</div>

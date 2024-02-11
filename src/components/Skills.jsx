@@ -51,10 +51,10 @@ function Skills() {
 						</span>
 					</div>
 				</div>
-				<Link to='/about'>
+				<Link to='/sobre'>
 					<HiArrowLongLeft className="smallPhone:max-md:flex md:hidden absolute bottom-6 left-6 text-3xl " />
 				</Link>
-				<Link to='/projects'>
+				<Link to='/projetos'>
 					<HiArrowLongRight className="smallPhone:max-md:flex md:hidden absolute bottom-6 right-6 text-3xl " />
 				</Link>
 			</div>

@@ -6,22 +6,29 @@ function Header() {
 	return (
 		<div className="pt-6 max-[762px]:hidden md:w-2/3 h-14 w-1/3 font-monda flex items-center justify-around">
 			<Link
-				to="/about"
-				className={location.pathname === '/about' ? 'font-bold' : ''}
+				to="/sobre"
+				className={location.pathname === '/sobre' ? 'font-bold' : ''}
 			>
 				<span>SOBRE MIM</span>
 			</Link>
 			<Link
-				to="/skills"
-				className={location.pathname === '/skills' ? 'font-bold' : ''}
+				to="/habilidades"
+				className={location.pathname === '/habilidades' ? 'font-bold' : ''}
 			>
 				<span>HABILIDADES</span>
 			</Link>
 			<Link
-				to="/projects"
-				className={location.pathname === '/projects' ? 'font-bold' : ''}
+				to="/projetos"
+				className={location.pathname === '/projetos' ? 'font-bold' : ''}
 			>
 				<span>PROJETOS</span>
+			</Link>
+
+			<Link
+				to="/contatos"
+				className={location.pathname === '/contatos' ? 'font-bold' : ''}
+			>
+				<span>CONTATOS</span>
 			</Link>
 		</div>
 	);
