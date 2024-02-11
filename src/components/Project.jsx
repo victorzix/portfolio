@@ -15,11 +15,11 @@ function Project({ name, language, deploy, repository, description, techs }) {
         <h3 className="xl:text-4xl md:text-3xl">{language}</h3>
 
         <div className={`xl:ml-3 flex flex-col items-start xl:text-sm md:text-xs smallPhone:text-xs ${newTheme.link}`}>
-          {deploy ? <Link target="blank" to={`https://${deploy}.victoraphael.com.br`}>Deploy</Link> : <p>O deploy ainda não foi feito</p>}
+          {deploy ? <Link target="blank" to={`https://${deploy}.victoraphael.com.br`}>Deploy</Link> : <p className={`${newTheme.text}`}>O deploy ainda não foi feito</p>}
           <Link target="blank" to={`https://github.com/victorzix/${repository}`}>Repositório</Link>
         </div>
 			</div>
-      <p className="w-5/6 md:max-xl:text-sm">
+      <p className="w-5/6 smallPhone:w-[90%] md:max-xl:text-sm">
         {description}
       </p>
       <p className="text-sm font-bold">{techs}</p>

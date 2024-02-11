@@ -17,9 +17,9 @@ function Projects() {
 			className={`font-monda smallPhone:pt-8 overflow-auto ${newTheme.background} ${newTheme.text} ${newTheme.link} w-screen h-svh flex-col flex gap-10 smallPhone:gap-4`}
 		>
 			<Header />
-			<div className="pl-12 smallPhone:pl-4 flex-col flex justify-center h-auto gap-10 smallPhone:gap-2">
+			<div className="pl-12 smallPhone:pl-4 flex-col flex justify-center h-auto gap-10 smallPhone:gap-3">
 				<h1 className="text-7xl smallPhone:text-2xl">Projetos</h1>
-				<div className="grid 2xl:grid-cols-4 xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-2 pb-5 flex-wrap xl:gap-6 lg:gap-4 md:gap-4 smallPhone:gap-2">
+				<div className="2xl:grid-cols-4 xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-2 pb-5 flex-wrap xl:gap-6 lg:gap-4 md:gap-4 smallPhone:flex smallPhone:gap-8">
 					<Project
 						name="Cloth Store"
 						language="C#"
