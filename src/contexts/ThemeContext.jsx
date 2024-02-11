@@ -8,7 +8,7 @@ export const ThemeProvider = ({ children }) => {
 
 	useEffect(() => {
 		const currentTime = new Date().getHours();
-		if (currentTime >= 18) {
+		if (currentTime >= 18 || currentTime < 6) {
 			setTheme('dark');
 		} else if (currentTime >= 6 && currentTime < 12) {
 			setTheme('light');

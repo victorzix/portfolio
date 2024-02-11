@@ -3,6 +3,10 @@ export default {
 	content: ['./src/**/*.{js,ts,jsx,tsx}'],
 	theme: {
     extend: {
+      screens: {
+        'phone': '440px',
+        'smallPhone': '300px'
+      },
       colors: {
         darkmode: {
           background: '#010E28',
