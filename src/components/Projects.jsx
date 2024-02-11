@@ -14,7 +14,7 @@ function Projects() {
 			initial={{ opacity: 0 }}
 			animate={{ opacity: '100%' }}
 			exit={{ opacity: 0, transition: { duration: 0.2 } }}
-			className={`font-monda smallPhone:pt-8 overflow-auto ${newTheme.background} ${newTheme.text} ${newTheme.link} w-screen h-screen flex-col flex gap-10 smallPhone:gap-4`}
+			className={`font-monda smallPhone:pt-8 overflow-auto ${newTheme.background} ${newTheme.text} ${newTheme.link} w-screen h-svh flex-col flex gap-10 smallPhone:gap-4`}
 		>
 			<Header />
 			<div className="pl-12 smallPhone:pl-4 flex-col flex justify-center h-auto gap-10 smallPhone:gap-2">
