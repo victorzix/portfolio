@@ -35,14 +35,14 @@ function Projects() {
 						name="Task Manager"
 						language={<BiLogoTypescript/>}
 						repository="task_manager"
-						description="Esse é o primeiro projeto que faço utilizando C# e ASP.NET, porém utilizando os conhecimentos que possuo em Backend consegui absorver bastante coisa e aplicar esses conhecimentos aqui."
+						description="Uma API de gerenciamento de tarefas para organizar trabalhos e atividades diárias. Essa foi uma das minhas primeiras aplicações ponta a ponta e onde eu diria que aprimorei mais a minha lógica"
 						techs="TypeScript, Node.Js, ZOD, Prisma, JWT, Express"
 					/>
 					<Project
 						name="Stock"
 						language={<BiLogoTypescript/>}
 						repository="stock"
-						description="Esse é o primeiro projeto que faço utilizando C# e ASP.NET, porém utilizando os conhecimentos que possuo em Backend consegui absorver bastante coisa e aplicar esses conhecimentos aqui."
+						description="Esse foi meu primeiro projeto em que utilizei typescript, aproveitei também nesse mesmo projeto, para entender sobre testes com jest e validações de dados. Aqui foi onde aprendi que nem tudo é CRUD."
 						techs="TypeScript, Node.Js, Sequelize, JWT, Express"
 					/>
 					<Link to='/habilidades'>
